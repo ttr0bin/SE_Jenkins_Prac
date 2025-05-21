@@ -10,6 +10,7 @@ class CalculatorTest {
 
     Calculator calculator;
 
+    // Calculator 인스턴스화
     @BeforeEach
     void setUp() {
         calculator = new Calculator();
